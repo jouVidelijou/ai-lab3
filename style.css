@@ -1,0 +1,37 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fdf3e7;
+  }
+  #map-container {
+    height: 500px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  #puzzle-container {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+  }
+  .piece {
+    position: absolute;
+    background-size: 400% 400%;
+    cursor: move;
+    transition: transform 0.3s ease;
+  }
+  
+  button {
+    background: rgb(1, 172, 44);
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+  }
